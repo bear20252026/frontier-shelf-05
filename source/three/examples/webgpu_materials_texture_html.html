@@ -57,7 +57,7 @@
 	<body>
 
 		<div id="info">
-			<a href="https://threejs.org" target="_blank" rel="noopener">three.js</a> - webgpu - HTMLTexture
+			three.js - webgpu - HTMLTexture
 		</div>
 
 		<script type="importmap">
@@ -82,7 +82,7 @@
 			if ( ! ( 'requestPaint' in HTMLCanvasElement.prototype ) ) {
 
 				installHtmlInCanvasPolyfill();
-				info.innerHTML += '<br><a href="https://github.com/WICG/html-in-canvas" target="_blank">HTML-in-Canvas API</a> not available. Using <a href="https://github.com/repalash/three-html-render" target="_blank">polyfill</a>.';
+				info.innerHTML += '<br>HTML-in-Canvas API not available. Using polyfill.';
 
 			}
 
